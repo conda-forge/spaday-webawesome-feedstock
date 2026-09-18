@@ -1,5 +1,5 @@
 context:
-  version: "0.2.1"
+  version: "0.4.0"
   python_min: "3.11"
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/spaday-webawesome/spaday_webawesome-${{ version }}.tar.gz
-  sha256: 4b2c826c57d7bf40115673fabd69dc0ab325feed784007e1f3eb05fb13bc0a64
+  sha256: 6fbac01a4119f56ee1d6646ce21785adaca5bc8080306a68bc6917985417cea2
 
 build:
   number: 0
@@ -28,7 +28,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - pydantic >=2
-    - spaday >=0.6.0
+    - spaday >=0.8.2,<1.0
 
 tests:
   - python:
