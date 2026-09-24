@@ -28,7 +28,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - pydantic >=2
-    - spaday >=0.8.2,<1.0
+    - spaday >=0.10.0,<1
 
 tests:
   - python:
