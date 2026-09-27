@@ -1,5 +1,5 @@
 context:
-  version: "0.5.0"
+  version: "0.6.0"
   python_min: "3.11"
 
 package:
@@ -7,8 +7,8 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/ed/02/fca0c62924395262bf08a8de515927678d38be2f61dc7d7b61ea0b6fb853/spaday_webawesome-${{ version }}.tar.gz
-  sha256: 2b1c7f7f7941125221a2a266ce329f435f51161dab7d2733d74a08555e54d694
+  url: https://files.pythonhosted.org/packages/6f/d8/3459122e13fdc1c932c5ee3c58c46f8b76cfd01028e21448ad3459fb9f2b/spaday_webawesome-${{ version }}.tar.gz
+  sha256: 17e221e58cb93fbddcf84caa2c303cff10bd52a7debf4202f8cd832f2c1a6645
 
 build:
   number: 0
