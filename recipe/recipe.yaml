@@ -1,13 +1,13 @@
 context:
-  version: "0.6.0"
+  version: "0.6.1"
 
 package:
   name: spaday-webawesome
   version: ${{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/6f/d8/3459122e13fdc1c932c5ee3c58c46f8b76cfd01028e21448ad3459fb9f2b/spaday_webawesome-${{ version }}.tar.gz
-  sha256: 17e221e58cb93fbddcf84caa2c303cff10bd52a7debf4202f8cd832f2c1a6645
+  url: https://files.pythonhosted.org/packages/32/c1/53116bbe499dd5c93d496fb5921666380dfdccb3f9bf8529ddc45caca111/spaday_webawesome-${{ version }}.tar.gz
+  sha256: 778265547abc4aa4e5dc53c715ac04c424dc2c74619957f62b8168b1c7365ef9
 
 build:
   number: 0
